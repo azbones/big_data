@@ -23,6 +23,7 @@ __pycache__/
 
 #Google Keys
 *.p12
+*.dat
 
 # Distribution / packaging
 .Python
