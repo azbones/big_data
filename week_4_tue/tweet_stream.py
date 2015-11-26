@@ -32,7 +32,7 @@ class TwitterAuth:
 
 class PrintStream(StreamListener):
     """
-    Subclass to send strea data to console using print.
+    Subclass to send stream data to console using print.
     """ 
 
     def on_data(self, data):
@@ -46,7 +46,7 @@ class PrintStream(StreamListener):
 class FileStream(StreamListener):
 
     """
-    Subclass to send stream data to console using print.
+    Subclass to send stream data to defined file.
 
     Attributes:
         filepath(file): file for output
@@ -63,5 +63,8 @@ class FileStream(StreamListener):
 
 
 def get_stream(con,listener):
+    """
+    Function to create stream.
+    """
     stream = Stream(con,listener)
     return stream
