@@ -10,6 +10,8 @@ Here are some links to public datasets:
 
 **US Government:** https://www.data.gov/
 
+**New Zealand Government:** http://www.stats.govt.nz/infoshare/
+
 **Yelp Datasets:** http://www.yelp.com/dataset_challenge
 
 **Phoenix Open Data:** https://www.phoenix.gov/opendata
