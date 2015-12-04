@@ -18,9 +18,6 @@ __pycache__/
 # logs
 *.log
 
-# Pickle
-*.p
-
 #Google Keys
 *.p12
 *.dat
