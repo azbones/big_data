@@ -36,11 +36,11 @@ class PrintStream(StreamListener):
     """ 
 
     def on_data(self, data):
-        print data
+        print(data)
         return True
 
     def on_error(self, status):
-        print status
+        print(status)
 
 
 class FileStream(StreamListener):
@@ -59,7 +59,7 @@ class FileStream(StreamListener):
             f.write(data)
 
     def on_error(self, status):
-        print status
+        print(status)
 
 
 def get_stream(con,listener):
